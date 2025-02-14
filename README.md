@@ -1,5 +1,13 @@
 # patch_package
 
+> [!CAUTION]
+> This package **will modify** you `PUB_CACHE`, it is strongly adviced that you do **not modify** files in `PUB_CACHE`!
+> 
+> The `PUB_CACHE` is intended to be immutable, and should not be modified by tools other than `dart pub` / `flutter pub`.
+> Modifying files in `PUB_CACHE` can cause unrelated projects and tools to fail unexpectedly, or behave in unintended ways!
+>
+> You can repair you `PUB_CACHE` using [`dart pub cache repair`](https://dart.dev/tools/pub/cmd/pub-cache#reinstalling-all-packages-in-the-system-cache).
+
 Dart tool for patching Flutter packages, enabling quick fixes, modifications, and version control integration for a smoother development workflow.
 
 ##  Features
